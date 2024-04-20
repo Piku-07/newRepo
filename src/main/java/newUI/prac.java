@@ -46,7 +46,7 @@ public class prac {
 		driver.findElement(By.linkText("Conference")).click();
 		driver.findElement(By.linkText("Playbooks")).click();
 		Thread.sleep(5000);
-		System.out.println("added");
+		
 		// (A)Sorting on Conference Page:
 		// (i)sort on name
 		
