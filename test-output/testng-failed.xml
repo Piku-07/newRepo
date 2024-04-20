@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="automation.baseclass.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="automation.tests.PlaybookExecution">
+        <methods>
+          <include name="Filter"/>
+          <include name="Sorting"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="addPlaybook"/>
+        </methods>
+      </class> <!-- automation.tests.PlaybookExecution -->
+      <class name="automation.tests.ConferenceExecution">
+        <methods>
+          <include name="Pagination"/>
+          <include name="Filter"/>
+          <include name="launchApplication"/>
+          <include name="Sorting"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automation.tests.ConferenceExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
