@@ -38,8 +38,7 @@ public class prac {
 		String password = "Mnb@0987";
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println("new code");
-		System.out.println("new code");
-		System.out.println("new code");
+	
 		driver.get("https://qa.inflexionrx.com/authentications/login");
 		driver.findElement(By.id("loginUsername")).sendKeys(username);
 	
